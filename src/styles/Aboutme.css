@@ -1,0 +1,41 @@
+#section_2 {
+       
+        padding-top: 20px;
+        white-space: wrap;
+        overflow: hidden; 
+        margin-bottom: 20px;
+}
+
+#about_me {
+        color: #f0ad4e;
+        padding: 20px;
+}
+
+#aboutme_title{
+        padding: 20px;
+        color: #424242;}
+
+.logo_size {
+        height: 90px;     
+}
+
+.btn-1 {
+      margin: 1px;
+}
+
+#prof-img {
+        margin: 20px;
+}
+
+.p_margin20 {
+        margin: 20px;
+        text-align: justify;
+}
+
+.card-text {
+ font-size: smaller;
+ width: auto;
+ margin: 20px;
+
+
+}

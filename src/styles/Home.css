@@ -1,0 +1,95 @@
+#home {
+    height: 550px;
+    margin-top: 50px;
+    background-size: cover;
+    
+}
+
+@media (max-width: 500px) {
+    #home {
+        background-image: url("https://i.imgrz.com/M27x.jpg");
+        background-repeat: no-repeat;
+      background-size: cover ;
+    }
+  }
+@media (min-width: 481px) {
+    #home {
+      background-image: url("https://i.imgrz.com/M27x.jpg");
+      background-repeat: no-repeat;
+      background-size: cover ;
+    }
+  }
+
+.fade-in {
+    animation: fadeIn ease 5s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+ i, .fa {
+     
+    outline: none !important;
+    box-shadow: none;
+
+ }
+  
+ 
+#name {
+    font-size: 10em;
+    color: white;
+  
+}
+
+#position {
+    font-style: italic;
+    font-size: 2em;
+    color: #f0ad4e;
+    margin-top: 150px;
+
+}
+
+#location {
+    
+    font-weight: lighter;
+    color: white;
+    font-size: 22px;
+}
+
+#email {
+  font-weight: lighter;
+
+}
+
+
+#socialContacts {
+    display: flex;
+align-items: space-between;
+justify-content: center;
+
+
+
+}
+
+#prof-img {
+	height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #ddd;   
+}
+
+
+
+
+.fa{
+    color:  white;
+    text-shadow: 2px 2px 5px  #424242; 
+}
+
